@@ -33,7 +33,7 @@ fun UserComposable() {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally){
         Row(modifier = Modifier, horizontalArrangement = Arrangement.Center) {
-            Image(painter = painterResource(id = R.drawable.ic_launcher_background), contentDescription = "Medical Page")
+            Image(painter = painterResource(id = R.drawable.logo), contentDescription = "Medical Page")
         }
         Row(modifier = Modifier, horizontalArrangement = Arrangement.Center){
             Text(text = userlist.get(0).name , fontSize = 24.sp, fontWeight = FontWeight.W100)
